@@ -1,8 +1,8 @@
 def  appName = 'service-tracker-ui'
 def  feSvcName = "${appName}"
 def  ACRPATH = 'hackfest'
-def  ACRNAME = 'acrhackfestthapham5523'
-def  ACRURL = 'acrhackfestthapham5523.azurecr.io'
+def  ACRNAME = 'acrhackfestthapham1404'
+def  ACRURL = 'acrhackfestthapham1404.azurecr.io'
 def  imageTag = "${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
 pipeline {
