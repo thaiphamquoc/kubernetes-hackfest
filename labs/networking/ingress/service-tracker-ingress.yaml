@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - brian13270.eastus.cloudapp.azure.com
+    - thapham1404.eastus2.cloudapp.azure.com
     secretName: aks-ingress-tls
   rules:
-  - host: brian13270.eastus.cloudapp.azure.com
+  - host: thapham1404.eastus2.cloudapp.azure.com
     http:
       paths:
       - path: /ui
